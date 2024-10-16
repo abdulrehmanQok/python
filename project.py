@@ -77,6 +77,13 @@ class Employee:
       self.__name=name
    def get_name(self):
       return self.__name
+   def set_id(self, id):
+      self.__id=id 
+   def get_id(self):
+     return self.__id
 harry=Employee()
 harry.set_name('harry')
 print(harry.get_name())
+setids=id()
+setids.set_id(10)
+print(setids.get_id())
