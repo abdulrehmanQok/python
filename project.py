@@ -81,9 +81,14 @@ class Employee:
       self.__id=id 
    def get_id(self):
      return self.__id
+
+   def set_salary(self, salary):
+      self.__salary=salary
 harry=Employee()
 harry.set_name('harry')
 print(harry.get_name())
 setids=id()
 setids.set_id(10)
 print(setids.get_id())
+
+
